@@ -1,5 +1,6 @@
 from django.db import models
 from .exam_models import Chat
+from .product_models import Products, Payment, CartItem
 
 # Create your models here.
 class Contact(models.Model):
